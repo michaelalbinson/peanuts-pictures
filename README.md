@@ -27,3 +27,7 @@ Before you try to ship and make sure the thing runs with
 ```
 pixlet serve apps/peanutspictures/peanuts_pictures.star
 ```
+
+### TODO
+- read the header information for the script from the app manifest in community
+    - heck we could probably generate that too with an `--in` and `--out` flag with micro-config files
