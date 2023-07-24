@@ -58,7 +58,7 @@ const getBase64Data = filePath => {
 
 //////////////// MARK: SCRIPT START ////////////////
 
-const sourceImages = readFileSync(join(__dirname, 'source_images.yml'))
+const sourceImages = readFileSync(join(__dirname, '..', 'source_images.yml'))
     .toString()
     .split('\n')
     .map(it => it.split(':').map(it => it.trim()))

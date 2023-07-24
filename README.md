@@ -9,7 +9,7 @@ to modify any of the ones I've already created.
 
 So uh, yeah you can autogen the whole script now
 
-Add your new image to `images/your/path`, then add it's pretty name and path to `scripts/source_images.yml`.
+Add your new image to `images/your/path`, then add it's pretty name and path to `source_images.yml`.
 Then just run
 
 ```bash
