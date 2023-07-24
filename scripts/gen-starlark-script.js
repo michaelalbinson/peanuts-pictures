@@ -91,3 +91,5 @@ const template =
         .replace(TMP_FILL_OPTIONS, getSchemaOptions(sourceImages));
 
 writeFileSync(join(__dirname, 'peanutspictures.star'), template);
+
+console.log(`Successfully generated starlark script!`);
