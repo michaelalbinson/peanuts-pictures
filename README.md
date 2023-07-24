@@ -5,11 +5,25 @@ Source images for the TidByt app I built for a friend
 The pictures here can be used with https://www.pixilart.com/ to quickly get going if you want
 to modify any of the ones I've already created.
 
-Then to convert the images to base64 for use in the starlark script you can just do:
+-----
+
+So uh, yeah you can autogen the whole script now
+
+Add your new image to `images/your/path`, then add it's pretty name and path to `scripts/source_images.yml`.
+Then just run
 
 ```bash
-./img2base64.js images/path/to/image
+node scripts/gen-starlark-script.js
 ```
 
-Someday it'd be rad if I could autogen the whole starlark script, which shouldn't be to hard given
-how simple it is overall.
+And it'll dump out `peanutspictures.star` ready to go, just run
+
+```
+pixlet lint --fix apps/peanutspictures/peanuts_pictures.star
+```
+
+Before you try to ship and make sure the thing runs with
+
+```
+pixlet serve apps/peanutspictures/peanuts_pictures.star
+```
