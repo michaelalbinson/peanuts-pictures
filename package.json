@@ -1,0 +1,27 @@
+{
+  "name": "tidbyt-app-generator",
+  "version": "1.0.0",
+  "description": "Generates a tidbyt app for displaying static gifs and images",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/gen-starlark-script.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelalbinson/peanuts-pictures/activity"
+  },
+  "keywords": [
+    "tibyt",
+    "images",
+    "gifs",
+    "png",
+    "generator"
+  ],
+  "author": "michaelalbinson",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "yaml": "^2.3.1"
+  }
+}
