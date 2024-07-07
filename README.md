@@ -31,3 +31,10 @@ pixlet serve apps/peanutspictures/peanuts_pictures.star
 ### TODO
 - read the header information for the script from the app manifest in community
     - heck we could probably generate that too with an `--in` and `--out` flag with micro-config files
+
+
+### General concepts:
+- parallax space scroller
+    - https://www.reddit.com/r/PixelArtWallpapers/ has some neat stuff
+        - https://old.reddit.com/r/PixelArtWallpapers/comments/i0zlpy/colorfull_space_wallpaper/
+        - https://old.reddit.com/r/PixelArtWallpapers/comments/d6w9er/daily_wallpaper_3/

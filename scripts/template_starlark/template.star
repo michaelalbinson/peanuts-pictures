@@ -1,8 +1,8 @@
 """
-Applet: Peanuts Pictures
-Summary: Peanuts Pixel Art
-Description: Shows a specific or random pixel art piece of characters from the Peanuts comics series.
-Author: michaelalbinson
+Applet: $$APPLET_NAME$$
+Summary: $$APPLET_SUMMARY$$
+Description: $$APPLET_DESCRIPTION$$
+Author: $$APPLET_AUTHOR$$
 """
 
 load("encoding/base64.star", "base64")
@@ -22,12 +22,14 @@ def main(config):
     if image_opt == OPT_RANDOM or image_opt == None:
         image_opt = all_opts[random.number(0, len(all_opts) - 1)]
 
+    $$FILL_DELAY_BRANCHES$$
+
     $$FILL_BRANCHES$$
     else:
         fail("Couldn't find an image to render")
 
     return render.Root(
-        delay = int(DEFAULT_SPEED),
+        delay = int(delay),
         child = render.Image(base64.decode(img_to_display)),
     )
 

@@ -1,0 +1,21 @@
+---
+id: live_laugh_love
+name: Live, Laugh, Love
+summary: Show your values
+desc: Shows a specific or random pixel art piece displaying live, laugh, love
+author: michaelalbinson
+fileName: live_laugh_love.star
+packageName: livelaughlove
+images:
+  - Declare It: lll/lll_declarative/pixil-frame-0.png
+  - displayName: Neon Party
+    fileName: lll/lll_party/ezgif.com-gif-maker.gif
+    delay: 500
+  - displayName: Neon Fade
+    fileName: lll/lll_fade/ezgif.com-gif-maker.gif
+    delay: 150
+  - Rustic: lll/lll_rustic/pixil-frame-0.png
+  - Rustic Leaves: lll/lll_rustic_leaves/pixil-frame-0.png
+  - Heart: lll/lll_heart/pixil-frame-0.png
+  - Neon: lll/lll_neon_pink/pixil-frame-0.png
+  - Retro Neon: lll/lll_retro_neon/pixil-frame-0.png
